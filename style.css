@@ -1,0 +1,116 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+/* font-family: 'Big Shoulders Display', sans-serif;
+font-family: 'Lexend Deca', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 2rem;
+    margin: 20px 0;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1rem;
+    margin-bottom: 70px;
+}
+.card a{
+    color: hsl(31, 77%, 52%);
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-family: 'Lexend Deca', sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: hsl(0, 0%, 95%);
+}
+.cards{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-wrapper{
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 95%);
+    padding: 80px 0;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.card{
+    width: 270px;
+    padding: 40px 20px;
+}
+.card-1{
+    background: hsl(31, 77%, 52%);
+}
+.card-1 a{
+    color: hsl(31, 77%, 52%);
+}
+.card-2{
+    background: hsl(184, 100%, 22%);
+}
+.card-2 a{
+    color: hsl(184, 100%, 22%);
+}
+.card-3{
+    background: hsl(179, 100%, 13%);
+}
+.card-3 a{
+    color: hsl(179, 100%, 13%);
+}
+
+
+@media (max-width: 992px){
+    .card-wrapper{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        padding: 20px 0;
+    }
+}
+@media (max-width: 1439px){
+    .card-wrapper{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        width: 100%;
+        padding: 20px 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
